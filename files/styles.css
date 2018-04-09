@@ -1,5 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
- 
+html {
+  min-width: 1024px;
+}
+
 
 * {
     margin: 0;
@@ -133,7 +135,7 @@ a:hover {
     color: #fff;
     margin: 4px;
 }
-/* Header 
+/* Header
 ----------------------------------------------*/
 .header {
     width: 100%;
@@ -189,7 +191,7 @@ a:hover {
 .navbar-toggle {
 }
 
-div.navbar-header:after { 
+div.navbar-header:after {
     width: 200px;
     height: 78px;
     position: absolute;
@@ -260,6 +262,7 @@ div.navbar-header:after {
     color: #98D21F;
     font-family: 'Syncopate', sans-serif;
     font-weight: 800;
+    line-height: 30px;
 }
 
 .logo {
@@ -488,7 +491,7 @@ div.navbar-header:after {
 /*parlex*/
 .bg-parlex {
     padding-top: 0px;
-    background-image: url('../images/banner-bg2.jpg');
+    /* background-image: url('../images/banner-bg2.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -533,7 +536,7 @@ div.navbar-header:after {
 
 .service-icon {
 	margin-bottom: 20px;
-}	
+}
 
 .service-desc h5 {
 	text-transform: uppercase;
@@ -1097,7 +1100,7 @@ footer {
     padding: 10px;
     font-size: 18px;
 }
-/*Price Table*/	
+/*Price Table*/
 .panel-danger>.panel-heading {
     color: #FFFFFF;
     background-color: #9ED034;
@@ -1134,14 +1137,28 @@ footer {
 }
 
 #contactUs {
-    color: #fff;
-    box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-    background: #5E5E5E;
-    background-size: cover !important;
-	/* background-size: cover; */
-    background-position: center;
+  background: url('../images/address.jpg') center center;
+  height: 316px;
+  padding: 0;
+  margin-bottom: 50px;
 }
-
+#contactUs .address {
+  background-color: rgba(255, 255, 255, .9);
+  width: 318px;
+  height: 316px;
+  padding: 32px;
+}
+#contactUs .address .title {
+  color: #333;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 28px;
+}
+#contactUs .address p {
+  color: #666;
+  font-size: 14px;
+  line-height: 21px;
+}
 #contactUs h2, #contactUs p {
     color: #fff;
 }
@@ -1228,7 +1245,7 @@ text-align: left;
 }
 
 @media (max-width: 768px) {
-  
+
     .banner-container {
         background-size: cover !important;
         height: 400px;
@@ -1237,7 +1254,7 @@ text-align: left;
 	.navbar-inverse .navbar-collapse {
 	 border-color: #000;
 	}
- 
+
 	.da-slide .da-link{
 		top:150px;
 		}
@@ -1319,7 +1336,7 @@ text-align: left;
     }
 	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	border-color: #A8A8A8;
-	background: #fff; 
+	background: #fff;
 	width: 100%;
 	}
 }
@@ -1450,7 +1467,7 @@ height: 8px;
 position: absolute;
 top: 4px;
 left: 4px;
-border-radius: 0; 
+border-radius: 0;
 background: #fff;
 }
 a.btn.btn-skin {
@@ -1468,4 +1485,7 @@ line-height: 30px;
 width: auto;
 text-align: center;
 background: rgba(255, 255, 255, 1);
+}
+.img-logo {
+  width: 40px;
 }
