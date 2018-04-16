@@ -2,7 +2,7 @@
 body{margin:0;padding:0;list-style:none}
 img{vertical-align:bottom}
 
-.rotateBanner-BG-effect{background-image:url(../images/banner1.jpg);background-repeat:no-repeat;background-size:100% 100%;position:absolute;top:0;left:0;width:100%;height:100%;filter:url(blur.svg#blur);-webkit-filter:blur(2px);-moz-filter:blur(2px);-ms-filter:blur(2px);filter:blur(2px);opacity:.9}
+.rotateBanner-BG-effect{background-image:url(//7xiefr.com1.z0.glb.clouddn.com/images/banner1.jpg);background-repeat:no-repeat;background-size:100% 100%;position:absolute;top:0;left:0;width:100%;height:100%;filter:url(blur.svg#blur);-webkit-filter:blur(2px);-moz-filter:blur(2px);-ms-filter:blur(2px);filter:blur(2px);opacity:.9}
 .RotateBannerAll{width:100%;height:425px;position:relative;margin-bottom:5px;background-color:#efefef}
 .rotateBanner-BG{width:100%;height:425px;position:relative;background-color:initial}
 .rotateBanner-BG .rotateBanner-Main{width:60%;height:100%;position:relative;margin:0 auto}
