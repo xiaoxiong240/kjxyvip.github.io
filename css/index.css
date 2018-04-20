@@ -1,0 +1,9 @@
+.heading.text-center {
+  position: relative;
+}
+.heading.text-center .more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

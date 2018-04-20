@@ -97,7 +97,9 @@ var customScripts = {
     },
     init: function () {
         customScripts.onePageNav();
-        customScripts.profile();
+        setTimeout(function() {
+          customScripts.profile();
+        }, 1000);
         customScripts.fancybox();
         customScripts.slider();
         customScripts.owlSlider();
