@@ -1,0 +1,40 @@
+body {
+  padding-top: 72px;
+  padding-bottom: 30px;
+}
+.title {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.sub-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #e06883;
+}
+.content {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+  text-indent: 40px;
+}
+.img-show-1 {
+  width: 100%;
+  margin: 20px 0;
+}
+.imp-content {
+  color: #e06883;
+}
+.img-show-2 {
+  margin: 20px 0;
+}
+.sub-heading-s {
+  font-size: 24px;
+  color: #d0cc29;
+}
+.content-s {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+}
